@@ -1,7 +1,8 @@
-body{
+.App{
+  width: 100%;
+  min-height: 100vh;
   background-color: #242423 !important;
 }
-
 #btn-search{
   color: #F5CB5C;
   border-color: #F5CB5C;
@@ -15,8 +16,26 @@ body{
   color: #E8EDDF;
   opacity: 50%;
 }
-.card__{
-  width: 15rem;
+
+.hr_{
+  display: block;
+  width: 75%;
+  color: #E8EDDF;
+  border: 2px solid #E8EDDF;
+}
+
+.icon__{
+  width: 2em;
+  height: 2em;
+  fill: #E8EDDF;
+}
+.icon__:hover{
+  fill: #F5CB5C;
+}
+
+span[class|="icon"]{
+  font-size: 1em;
+  color: #E8EDDF;
 }
 
 /* id*/
