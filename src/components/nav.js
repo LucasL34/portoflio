@@ -1,7 +1,9 @@
 
 function Nav() {
+    // navbar navbar-default navbar-fixed-top
+    // navbar navbar-expand-lg cols-12 justify-content-between fix
     return(
-        <nav className="navbar navbar-expand-lg cols-12 justify-content-between">
+        <nav className="navbar navbar-fixed-top">
             <a
             href="#home"
             id="portfolio"
